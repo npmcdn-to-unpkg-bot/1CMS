@@ -11,7 +11,7 @@ use yii\helpers\Url;
 $this->title = 'Posts';
 $this->params['breadcrumbs'][] = $this->title;
 $this->registerJsFile('js/masonry.pkgd.min.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
-$this->registerJsFile('https://npmcdn.com/imagesloaded@4.1.0/imagesloaded.pkgd.min.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
+$this->registerJsFile('https://unpkg.com/imagesloaded@4.1.0/imagesloaded.pkgd.min.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
 $this->registerJsFile('js/grid.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
 ?>
     <div class="posts-index">
